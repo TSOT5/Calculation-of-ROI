@@ -10,7 +10,7 @@ class Roi():
         yearlyincomeafter = yearlyincome - yearlycosts
         roi = yearlyincomeafter / price
         roiper = roi * 100
-        print(f'Percentage is {roiper}')
+        print(f'ROI percentage is {roiper}% per year')
         return None
 
 
